@@ -32,7 +32,7 @@ func TestAddTwoNumbers(t *testing.T) {
 	b0 := new(ListNode)
 	b0.Val = 0
 	b0.Next = b1
-	Convey("test two sum", t, func() {
+	Convey("test AddTwoNumbers", t, func() {
 		re := AddTwoNumbers(a0, b0)
 		So(re.Val, ShouldEqual, 0)
 		So(re.Next.Val, ShouldEqual, 0)
