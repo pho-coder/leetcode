@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
-	astr := "abcdef"
-	fmt.Println(astr[1:10])
+	for i := 1; i < 10; i++ {
+		fmt.Println(i)
+	}
 }
