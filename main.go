@@ -1,11 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	for i := 1; i < 10; i++ {
-		fmt.Println(i)
-	}
+	a := []int{1, 2, 3, 4}
+	fmt.Println(a[1:2])
+
+	b := "a"
+	fmt.Println(b)
 }
