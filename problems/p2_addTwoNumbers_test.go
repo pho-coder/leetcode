@@ -36,7 +36,7 @@ func TestAddTwoNumbers(t *testing.T) {
 		re := AddTwoNumbers(a0, b0)
 		So(re.Val, ShouldEqual, 0)
 		So(re.Next.Val, ShouldEqual, 0)
-		So(re.Next.Val, ShouldEqual, 6)
-		So(re.Next.Val, ShouldEqual, 7)
+		So(re.Next.Val, ShouldEqual, 0)
+		So(re.Next.Val, ShouldEqual, 0)
 	})
 }
