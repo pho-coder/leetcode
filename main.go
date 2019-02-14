@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	a := 5 / 2
-	fmt.Println(a)
+	a := "abcd"
+	b := []byte(a)
+	println(string(b[:4]))
 }
